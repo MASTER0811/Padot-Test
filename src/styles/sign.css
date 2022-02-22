@@ -1,0 +1,64 @@
+
+.gSignBtn{
+    background-color: #4285f4;
+
+    padding: 0.35em 1.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+
+    cursor: pointer;
+
+    /* test */
+    margin: 15px;
+}
+.gSignBtn:hover{
+    transition: .3s;
+    background-color: #4286f4e7;
+}
+.gSignBtn:active{
+    transition: 0s;
+    opacity: .8;
+}
+.gSignBtn .g-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 5px;
+    padding: 7px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.gSignBtn .g-icon img{
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    user-select: none;
+
+    border-radius: 50%;
+}
+
+.gSignBtn .g-text{
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: .5px;
+    user-select: none;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+
+
+.googleSInBtn{
+    display: flex;
+}
+.googleSOutBtn{
+    display: none;
+}
